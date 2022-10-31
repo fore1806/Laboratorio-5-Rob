@@ -1,4 +1,4 @@
-function [q1,q2,q3,q4]=phinv(x,y,z)
+function [q1,q2,q3,q4,q5]=phinv(x,y,z,q5p)
     %Triangulo constante
     h=106.5;%distancia diagonal entre q2 y q3
     c=sqrt(h^2-100^2); %cateto de la diagonal
@@ -33,4 +33,5 @@ function [q1,q2,q3,q4]=phinv(x,y,z)
     q2= pi/2-theta-beta-delta;
     q3= pi-gamma-(pi/2-delta);
     q4 = -(pi/2-kappa);
+    q5 = q5p;
 end
