@@ -30,8 +30,8 @@ function [q1,q2,q3,q4,q5]=phinv(x,y,z,q5p)
     kappa = omega-pi/2;
 
     %Posiciones angulares del manipulador
-    q2= pi/2-theta-beta-delta;
-    q3= pi-gamma-(pi/2-delta);
-    q4 = -(pi/2-kappa);
+    q2= -(pi/2-theta-beta-delta-pi/18);
+    q3= -(pi-gamma-(pi/2-delta));
+    q4 = (pi/2-kappa);
     q5 = q5p;
 end
