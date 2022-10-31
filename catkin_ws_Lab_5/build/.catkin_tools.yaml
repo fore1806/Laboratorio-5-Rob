@@ -1,0 +1,6 @@
+devel_space: /home/felipe/catkin_ws_Lab_5/devel
+install: false
+install_space: /home/felipe/catkin_ws_Lab_5/install
+profile: default
+source_space: /home/felipe/catkin_ws_Lab_5/src
+workspace: /home/felipe/catkin_ws_Lab_5
