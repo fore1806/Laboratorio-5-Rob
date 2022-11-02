@@ -124,7 +124,7 @@ Una Vez cargados estos vectores se procede a enviarlos al Robot según la solici
             llamado=qPar
         elif key == 'd' or key == 'D':
             llamado=qDejado
-            rec==0
+            reec==0
         elif key == 'n' or key == 'N':
             llamado = rangoMin()
             key = ' '
