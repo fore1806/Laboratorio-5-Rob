@@ -34,6 +34,22 @@ Para la configuración inicial del entorno de trabajo, se utilizó un procedimie
 
 Para desarrollar la solución del laboratorio, el equipo de trabajo se basó en el anterior repositorio remoto conjuntamente con el repositorio [px_robot](https://github.com/felipeg17/px_robot.git), comenzando por utilizar el archivo [joint.yaml](https://github.com/felipeg17/px_robot/blob/master/config/joints.yaml) renombrado como [basic.yaml](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/catkin_ws_Lab_5/src/dynamixel_one_motor/config/basic.yaml).
 
+Se procedió a generar diferentes funciones con el fin de generar las trayectorias de cada una de las rutinas solicitadas, estas funciones se listan a continuación
+```MATLAB
+[xT, yT] = triEq(xiT,yiT,Len,N);
+
+[xC, yC] = circleDiscrete(xCC,yCC,R,30);
+
+[xL, yL] = FINLetter(xF,yF,20,N);
+
+[xP, yP] = Parallel(160,Largo/2,s,Largo,N);
+
+[xDots, yDots] = Dots(120,-120,20,5);
+
+
+```
+
+
 ### Resultados
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Resultado%20rutinas.jpeg) 
 
