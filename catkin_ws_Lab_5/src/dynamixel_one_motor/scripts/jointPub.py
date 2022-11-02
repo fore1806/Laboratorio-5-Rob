@@ -111,9 +111,12 @@ def joint_publisher():
 
         
 
-        key=input()
+       key=input()
+        if(reec==0 and (key != 'z' or key != 'Z') :
+            key=' '
         if key == 'z' or key == 'Z':
             llamado=qRecoleccion
+            reec==1
             indice = 0
             key = ' '
         elif key == 'x' or key == 'X':
@@ -135,6 +138,7 @@ def joint_publisher():
             llamado=qPar
         elif key == 'd' or key == 'D':
             llamado=qDejado
+            rec==0
         elif key == 'n' or key == 'N':
             llamado = rangoMin()
             key = ' '
