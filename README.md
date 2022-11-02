@@ -47,6 +47,8 @@ Se procedió a generar diferentes funciones con el fin de generar las trayectori
 [xDots, yDots] = Dots(Xi,yi,d,N);
 ```
 Con el uso de esta funciones y utilizando valores iniciales que generara puntos dentro del espacio de trabajo se obtuvieron las siguientes trayectorias
+
+
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Trayectorias.png)
 
 
