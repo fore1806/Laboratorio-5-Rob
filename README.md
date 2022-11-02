@@ -128,7 +128,22 @@ key=input()
             llamado=np.array([list(p1),list(p2)])
             key = ' '
 ```
-
+A partir de un ciclo for se recorre el arreglo punto a punto para obtener la trayectoria solicitada
+```python
+for i in range (len(llamado)):
+            state = JointTrajectory()
+            state.header.stamp = rospy.Time.now()
+            state.joint_names = ["joint_1", "joint_2", "joint_3", "joint_4", "joint_5"]
+            point = JointTrajectoryPoint()
+            point.positions = llamado[i]
+            point.time_from_start = rospy.Duration(0.5)
+            state.points.append(point)
+            pub.publish(state)
+            print(llamado[i])
+            print('published command \n')
+            rospy.sleep(3)
+            print('\n')
+```
 
 ### Resultados
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Resultado%20rutinas.jpeg) 
