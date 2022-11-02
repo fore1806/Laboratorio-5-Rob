@@ -197,3 +197,9 @@ print(time.time()-inicio)
 
 
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Resultado%20figura%20libre.jpeg) 
+
+
+
+
+
+[![Alt text](https://github.com/fore1806/Laboratorio-3-Rob/blob/master/Imagenes/Imagen%20Video.png)](https://youtu.be/5pfSyu1qh1M) 
