@@ -97,9 +97,12 @@ qTriangle = np.loadtxt(raw_data, delimiter=",")
 
 Una Vez cargados estos vectores se procede a enviarlos al Robot según la solicitud del usuario el cual mediante comandos de texto ingresa la trayectoria que quiere obtener.
 ```python
-key=input()
+        key=input()
+        if(reec==0 and (key != 'z' or key != 'Z') :
+            key=' '
         if key == 'z' or key == 'Z':
             llamado=qRecoleccion
+            reec==1
             indice = 0
             key = ' '
         elif key == 'x' or key == 'X':
@@ -121,6 +124,7 @@ key=input()
             llamado=qPar
         elif key == 'd' or key == 'D':
             llamado=qDejado
+            rec==0
         elif key == 'n' or key == 'N':
             llamado = rangoMin()
             key = ' '
@@ -135,6 +139,7 @@ key=input()
             p2 = [0,0,0,0,-0.15]
             llamado=np.array([list(p1),list(p2)])
             key = ' '
+       
 ```
 A partir de un ciclo for se recorre el arreglo punto a punto para obtener la trayectoria solicitada
 ```python
