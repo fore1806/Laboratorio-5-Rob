@@ -46,10 +46,23 @@ Se procedió a generar diferentes funciones con el fin de generar las trayectori
 
 [xDots, yDots] = Dots(Xi,yi,d,N);
 ```
-Con el uso de esta funciones y utilizando valores iniciales que generara puntos dentro del espacio de trabajo se obtuvieron las siguientes trayectorias
+Con el uso de esta funciones y utilizando valores iniciales que generara puntos dentro del espacio de trabajo se obtuvieron las siguientes trayectorias:
 
 
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Trayectorias.png)
+
+Con los puntos de las trayectorias generados se procedió a realizar las transformaciones de estos puntos en el espacio a ángulos articulares con el modelo inverso obtenido previamente adicional a esto se les adiciono que comenzara en el punto de espera que en este caso es el [0,0,0,0] y adicionalmente se generaron puntos de aproximación y de salida los cuales manteniendo la distancia en X y Y cambian la altura Z.
+
+Posteriormente, los vectores de ángulos articulares generados son almacenados en formato csv mediante los siguientes comandos de MATLAB
+```MATLAB
+csvwrite('qRecolecccion.csv',qRecoleccion);
+csvwrite('qDejado.csv',qDejado);
+csvwrite('qTriangle.csv',qTriangle);
+csvwrite('qCircle.csv',qCircle);
+csvwrite('qLetter.csv',qLetter);
+csvwrite('qPar.csv',qPar);
+csvwrite('qDots.csv',qDots);
+```
 
 
 ### Resultados
