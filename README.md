@@ -87,6 +87,49 @@ raw_data = open('qTriangle.csv')
 qTriangle = np.loadtxt(raw_data, delimiter=",")
 ```
 
+Una Vez cargados estos vectores se procede a enviarlos al Robot según la solicitud del usuario el cual mediante comandos de texto ingresa la trayectoria que quiere obtener.
+```python
+key=input()
+        if key == 'z' or key == 'Z':
+            llamado=qRecoleccion
+            indice = 0
+            key = ' '
+        elif key == 'x' or key == 'X':
+            llamado=qTriangle
+            indice = 
+            key = ' '
+        elif key == 'c' or key == 'C':
+            llamado=qLetter
+            indice = 2
+            key = ' '
+        elif key == 'v' or key == 'V':
+            llamado=qCircle
+            indice = 3
+            key = ' '
+        elif key == 'b' or key == 'B':
+            llamado=qDots
+            key = ' '
+        elif key == 'l' or key == 'L':
+            llamado=qPar
+        elif key == 'd' or key == 'D':
+            llamado=qDejado
+        elif key == 'n' or key == 'N':
+            llamado = rangoMin()
+            key = ' '
+        elif key == 'm' or key == 'M':
+            llamado = rangoMax()
+            key = ' '
+        elif key == 'f' or key == 'F':
+            llamado = qCircle2
+            key = ' '
+        else:
+            p1 = [0,0,0,0,-0.15]
+            p2 = [0,0,0,0,-0.15]
+            llamado=np.array([list(p1),list(p2)])
+            key = ' '
+```
+
+
 ### Resultados
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Resultado%20rutinas.jpeg) 
 
