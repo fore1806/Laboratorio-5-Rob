@@ -201,5 +201,4 @@ print(time.time()-inicio)
 
 
 
-
-[![Alt text](https://github.com/fore1806/Laboratorio-3-Rob/blob/master/Imagenes/Imagen%20Video.png)](https://youtu.be/5pfSyu1qh1M) 
+[![Alt text](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Thumbnail.png)](https://youtu.be/5pfSyu1qh1M) 
