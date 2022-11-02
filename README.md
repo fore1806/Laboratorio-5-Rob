@@ -116,41 +116,51 @@ Una Vez cargados estos vectores se procede a enviarlos al Robot según la solici
 
 ```python
         key=input()
+        inicio = time.time()
         if(reec==0 and (key != 'z' or key != 'Z') :
             key=' '
+            print(con herramienta)
+        else:
+           print(sin herramienta)
         if key == 'z' or key == 'Z':
             llamado=qRecoleccion
             reec==1
-            indice = 0
+            print("Recoleccion")
             key = ' '
         elif key == 'x' or key == 'X':
             llamado=qTriangle
-            indice = 
+            print("Triangle")
             key = ' '
         elif key == 'c' or key == 'C':
             llamado=qLetter
-            indice = 2
+            print("Letters")
             key = ' '
         elif key == 'v' or key == 'V':
             llamado=qCircle
-            indice = 3
+            print("Circle")
             key = ' '
         elif key == 'b' or key == 'B':
             llamado=qDots
+            print("Dots")
             key = ' '
         elif key == 'l' or key == 'L':
             llamado=qPar
+            print("Parallel")
         elif key == 'd' or key == 'D':
             llamado=qDejado
+            print("Dejado")
             reec==0
         elif key == 'n' or key == 'N':
             llamado = rangoMin()
+            print("rangoMin")
             key = ' '
         elif key == 'm' or key == 'M':
             llamado = rangoMax()
+            print("rangoMax")
             key = ' '
         elif key == 'f' or key == 'F':
             llamado = qCircle2
+            print("Libre")
             key = ' '
         else:
             p1 = [0,0,0,0,-0.15]
@@ -174,6 +184,10 @@ for i in range (len(llamado)):
             print('published command \n')
             rospy.sleep(3)
             print('\n')
+print("Terminado")
+print("\n")
+print("Tiempo:")
+print(time.time()-inicio)
 ```
 
 ### Resultados
