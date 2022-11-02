@@ -56,7 +56,7 @@ Se procedió a generar diferentes funciones en MATLAB con el fin de generar las 
 Con el uso de esta funciones y utilizando valores iniciales que generara puntos dentro del espacio de trabajo se obtuvieron las siguientes trayectorias:
 
 
-![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Trayectorias.png)
+![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Trayectorias1.png)
 
 Con los puntos de las trayectorias generados se procedió a realizar las transformaciones de estos puntos en el espacio a ángulos articulares con el modelo inverso obtenido previamente adicional a esto se les adiciono que comenzara en el punto de espera que en este caso es el [0,0,0,0] y adicionalmente se generaron puntos de aproximación y de salida los cuales manteniendo la distancia en X y Y alterando unicamente la altura Z.
 
