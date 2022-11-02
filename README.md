@@ -63,7 +63,29 @@ csvwrite('qLetter.csv',qLetter);
 csvwrite('qPar.csv',qPar);
 csvwrite('qDots.csv',qDots);
 ```
+Estos datos son cargados en Python mediante los siguientes comandos:
+```python
+raw_data = open('qDots.csv')
+qDots = np.loadtxt(raw_data, delimiter=",")
 
+raw_data = open('qCircle.csv')
+qCircle = np.loadtxt(raw_data, delimiter=",")
+
+raw_data = open('qDejado.csv')
+qDejado = np.loadtxt(raw_data, delimiter=",")
+
+raw_data = open('qLetter.csv')
+qLetter = np.loadtxt(raw_data, delimiter=",")
+
+raw_data = open('qPar.csv')
+qPar = np.loadtxt(raw_data, delimiter=",")
+
+raw_data = open('qRecolecccion.csv')
+qRecoleccion = np.loadtxt(raw_data, delimiter=",")
+
+raw_data = open('qTriangle.csv')
+qTriangle = np.loadtxt(raw_data, delimiter=",")
+```
 
 ### Resultados
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Resultado%20rutinas.jpeg) 
