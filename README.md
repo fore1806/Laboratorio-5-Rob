@@ -34,7 +34,8 @@ Para la configuración inicial del entorno de trabajo, se utilizó un procedimie
 
 Para desarrollar la solución del laboratorio, el equipo de trabajo se basó en el anterior repositorio remoto conjuntamente con el repositorio [px_robot](https://github.com/felipeg17/px_robot.git), comenzando por utilizar el archivo [joint.yaml](https://github.com/felipeg17/px_robot/blob/master/config/joints.yaml) renombrado como [basic.yaml](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/catkin_ws_Lab_5/src/dynamixel_one_motor/config/basic.yaml).
 
-Se procedió a generar diferentes funciones en MATLAB con el fin de generar las trayectorias de cada una de las rutinas solicitadas, adicional a esto se definió el punto de recolección de la herramienta y se generó una rutina de acercamiento sujeción con el gripper y posteriormente regreso al punto de espera y para regresarla se encontró que la rutina anterior cumplía con esta tarea también en caso de ser invertida; estas funciones se listan a continuación:
+Se procedió a generar diferentes funciones en MATLAB con el fin de generar las trayectorias de cada una de las rutinas solicitadas ,este procedimiento se encuentra explicado a detalle en el archivo livescript [Trayectorias]((https://github.com/fore1806/Laboratorio-5-Rob/blob/master/MATLAB/trayectorias.mlx)).
+, adicional a esto se definió el punto de recolección de la herramienta y se generó una rutina de acercamiento sujeción con el gripper y posteriormente regreso al punto de espera y para regresarla se encontró que la rutina anterior cumplía con esta tarea también en caso de ser invertida; estas funciones se listan a continuación:
 ```MATLAB
 [xT, yT] = triEq(Xi,Yi,Len,N);
 
