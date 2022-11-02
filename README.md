@@ -96,6 +96,21 @@ qTriangle = np.loadtxt(raw_data, delimiter=",")
 ```
 
 Una Vez cargados estos vectores se procede a enviarlos al Robot según la solicitud del usuario el cual mediante comandos de texto ingresa la trayectoria que quiere obtener.
+
+| Tecla | Operación                        |
+| -- | -- |
+|z    | Recolección                      |
+|x    | Triangulo  Equilatero            |
+|c    | Letras                           |
+|v    | Circulo                          |
+|b    | Puntos                           |
+|l    | Lineas Paralelas                 |
+|d    | Dejado                           |
+|n    | Rango Minimo                     |
+|m    | Rango Máximo                     |
+|f    | Figura Libre                     |
+
+
 ```python
         key=input()
         if(reec==0 and (key != 'z' or key != 'Z') :
