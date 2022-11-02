@@ -58,6 +58,8 @@ Con el uso de esta funciones y utilizando valores iniciales que generara puntos 
 
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Trayectorias1.png)
 
+![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Trayectoria%20Libre.jpeg) 
+
 Con los puntos de las trayectorias generados se procedió a realizar las transformaciones de estos puntos en el espacio a ángulos articulares con el modelo inverso obtenido previamente adicional a esto se les adiciono que comenzara en el punto de espera que en este caso es el [0,0,0,0] y adicionalmente se generaron puntos de aproximación y de salida los cuales manteniendo la distancia en X y Y alterando unicamente la altura Z.
 
 Posteriormente, los vectores de ángulos articulares generados son almacenados en formato csv mediante los siguientes comandos de MATLAB
@@ -176,7 +178,7 @@ for i in range (len(llamado)):
 ### Resultados
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Resultado%20rutinas.jpeg) 
 
-![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Trayectoria%20Libre.jpeg) 
+
 
 
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Resultado%20figura%20libre.jpeg) 
