@@ -45,6 +45,13 @@ Se procedió a generar diferentes funciones en MATLAB con el fin de generar las 
 [xP, yP] = Parallel(Xi,Yi,d,Largo,N);
 
 [xDots, yDots] = Dots(Xi,yi,d,N);
+
+[r,theta] = trayectoria0(pi/4,80,1,3.5,4,35);
+
+[xFree,yFree] = Totrigen(220,0,theta,r);
+
+[xC3, yC3] = cuadr(200*sqrt(2),0,R,5);
+
 ```
 Con el uso de esta funciones y utilizando valores iniciales que generara puntos dentro del espacio de trabajo se obtuvieron las siguientes trayectorias:
 
@@ -62,6 +69,7 @@ csvwrite('qCircle.csv',qCircle);
 csvwrite('qLetter.csv',qLetter);
 csvwrite('qPar.csv',qPar);
 csvwrite('qDots.csv',qDots);
+csvwrite('qFree.csv',qFree);
 ```
 Estos datos son cargados en Python mediante los siguientes comandos:
 ```python
