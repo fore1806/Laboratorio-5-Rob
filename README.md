@@ -202,3 +202,13 @@ print(time.time()-inicio)
 
 
 [![Alt text](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Thumbnail.png)](https://youtu.be/NH3ZaQMMAC8) 
+
+A continuación se presenta el resultado obtenido en la práctica en contraste con lo esperado teoricamente para la figura libre:
+
+![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/TraslapeFiguraLibre.png) 
+
+Como se puede apreciar, en la práctica se obtiene una figura muy parecida a lo que teoricamente se hace por medio de la herramienta de Matlab, sin embargo, vale la pena resaltar que se presenta en primer lugar, una pequeña desviacion del rango maximo obtenido Vs el esperado, desviacion atribuida al movimiento del marcador a la hora de hacer tal figura, el cual, no se logra inmovilizar en su totalidad. Además, es de notar que el trebol estilizado no posee la suavidad que caracteriza al elaborado en matlab, suavidad que no se logra para la cantidad de puntos graficados. Por ultimo, se ve una figura mas pequeña conforme se acerca al rango minimo, diferencia que puede ser atribuida a un error de captura de la fotografia y al error en si que posee el robot. 
+
+![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/TraslapeGeneral.png) 
+
+En lo que respecta a la imagen general, se comete un gran error en el momento de tomar la fotografia pues la vista de la misma no es superior sino que se toma con una inclinacion que no favorece a la comparacion de la imagen real con la imagen esperada. Es de rescatar la correcta disposicion de los puntos, cuyo espaciamiento parece el esperado y la dificultad del robot para realizar trazos paralelos. 
