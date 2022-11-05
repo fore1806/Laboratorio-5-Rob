@@ -248,7 +248,7 @@ Adicionalmente, se observa en las trayectorias cerradas, como el círculo o el t
 
 Finalmente, un evento que cautó especialmente la atención del equipo de trabajo, fue la escritura de las iniciales de los integrantes y especialmente la letra F, pues para reducir operaciones se decidió realizar la F repisando la línea media; sin embargo, al realizar este procedimiento, el manipulador no volvia al punto de partida después de realizar dos veces la misma línea. Al corregir este error desde el código se puede encontrar un valor numérico para la repetibilidad de esta operación de 5 mm.
 
-| Trayectoria | Tiempo [cm]   |
+| Trayectoria | Tiempo [s]   |
 | -- | -- |
 | Puntos  | 5.86            |
 |Triangulo| 5.83            |
