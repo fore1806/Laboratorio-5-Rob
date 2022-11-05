@@ -247,6 +247,15 @@ Adicionalmente, se observa en las trayectorias cerradas, como el círculo o el t
 |diag. 2| 5.94            |
 
 Finalmente, un evento que cautó especialmente la atención del equipo de trabajo, fue la escritura de las iniciales de los integrantes y especialmente la letra F, pues para reducir operaciones se decidió realizar la F repisando la línea media; sin embargo, al realizar este procedimiento, el manipulador no volvia al punto de partida después de realizar dos veces la misma línea. Al corregir este error desde el código se puede encontrar un valor numérico para la repetibilidad de esta operación de 5 mm.
+
+| Trayectoria | Tiempo [cm]   |
+| -- | -- |
+| Puntos  | 5.86            |
+|Triangulo| 5.83            |
+|Paralelas| 5.94            |
+|Circulos| 5.86            |
+|Libre| 5.83            |
+|Letras| 5.94            |
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/error%20en%20F.jpeg)
 ### Conclusiones
 se evidencia la gran importancia de la robustez mecánica de los manipuladores para poder obtener resultados precisos y repetibles de las trayectorias ya que esto induce un gran error en las mismas.
