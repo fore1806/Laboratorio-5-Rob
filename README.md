@@ -240,13 +240,11 @@ En lo que respecta a la imagen general, se comete un gran error en el momento de
 
 Adicionalmente, se observa en las trayectorias cerradas, como el círculo o el triángulo equilatero, el punto final de la trayectoria no coincide apropiadamente con el punto inicial de la misma, a pesar de enviar los mismos valores articulares al manipulador. Lo que nos da un indicio de la repetibilidad del manipulador. Al analizar a detalle estas dos figuras geométricas, se observa que el círculo termina por tomar una forma que se podría describir de mejor manera como elíptica. Por otra parte, respecto al triángulo, a pesar de que su tamaño no es el esperado (lado de 7 cm), se obtuvieron tres líneas que pueden ser catalogadas como rectas. La longitud de estas líneas se reportan en la siguiente tabla.
 
-\begin{center}
 | Línea | Longitud [cm]   |
 | -- | -- |
 | base  | 5.86            |
 |diag. 1| 5.83            |
 |diag. 2| 5.94            |
-\end{center}
 
 Finalmente, un evento que cautó especialmente la atención del equipo de trabajo, fue la escritura de las iniciales de los integrantes y especialmente la letra F, pues para reducir operaciones se decidió realizar la F repisando la línea media; sin embargo, al realizar este procedimiento, el manipulador no volvia al punto de partida después de realizar dos veces la misma línea. Al corregir este error desde el código se puede encontrar un valor numérico para la repetibilidad de esta operación de 5 mm.
 
