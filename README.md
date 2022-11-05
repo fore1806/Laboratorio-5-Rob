@@ -232,7 +232,17 @@ A continuación se presenta el resultado obtenido en la práctica en contraste c
 
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/TraslapeFiguraLibre.png) 
 
-Como se puede apreciar, en la práctica se obtiene una figura muy parecida a lo que teoricamente se hace por medio de la herramienta de MATLAB; sin embargo, vale la pena resaltar que se presenta en primer lugar, una pequeña desviacion del rango maximo obtenido Vs el esperado, desviacion atribuida al movimiento del marcador a la hora de hacer tal figura, el cual, no se logra inmovilizar en su totalidad. Además, es de notar que el trebol estilizado no posee la suavidad que caracteriza al elaborado en matlab, suavidad que no se logra para la cantidad de puntos graficados. Por último, se ve una figura más pequeña conforme se acerca al rango minimo, diferencia que puede ser atribuida a un error de captura de la fotografia y al error en si que posee el robot, el cual se evidenció especialmente en la medida que el robot dibujaba cerca a su límite minimo, pues al perder altura en cada uno de los movimientos, se termina obtiendo una figura más pequeña. 
+Como se puede apreciar, en la práctica se obtiene una figura muy parecida a lo que teoricamente se hace por medio de la herramienta de MATLAB; sin embargo, vale la pena resaltar que se presenta en primer lugar, una pequeña desviacion del rango maximo obtenido Vs el esperado, desviacion atribuida al movimiento del marcador a la hora de hacer tal figura, el cual, no se logra inmovilizar en su totalidad. Además, es de notar que el trebol estilizado no posee la suavidad que caracteriza al elaborado en matlab, suavidad que no se logra para la cantidad de puntos graficados. Por último, se ve una figura más pequeña conforme se acerca al rango minimo, diferencia que puede ser atribuida a un error de captura de la fotografia y al error en si que posee el robot, el cual se evidenció especialmente en la medida que el robot dibujaba cerca a su límite minimo, pues al perder altura en cada uno de los movimientos, se termina obtiendo una figura más pequeña.
+
+Con la ayuda del software Fusion 3D, se encuentran diferentes distancias relativas de la imagen anterior, como se observa en la siguiente imagen
+
+![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/ErrorRelativo.png)
+
+De esta forma, ponderando cada uno de los errores en base a su ocurrencia, teniendo en cuenta que en la medida que transcurria el tiempo, se iría acumulando el error. En la siguiente tabla se observa este cálculo.
+
+![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/TablaError.png)
+
+Estimandose el error en 14.794 %.
 
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/TraslapeGeneral.png) 
 
@@ -261,7 +271,11 @@ Finalmente, un evento que cautó especialmente la atención del equipo de trabaj
 |Dejado     |30               |
 
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/error%20en%20F.jpeg)
-### Conclusiones
-se evidencia la gran importancia de la robustez mecánica de los manipuladores para poder obtener resultados precisos y repetibles de las trayectorias ya que esto induce un gran error en las mismas.
 
-Se encontro la importancia de la realización de la cinemartica inversa con el fin de programar rutinnas espaciales a efectuar por el manipulador.
+### Conclusiones
+
+-Se evidencia la gran importancia de la robustez mecánica de los manipuladores para poder obtener resultados precisos y repetibles de las trayectorias ya que esto induce un gran error en las mismas.
+
+-Se encontró la importancia de la realización de la cinemartica inversa con el fin de programar rutinns espaciales a efectuar por el manipulador.
+
+-Se estima un error del 14.794 % para el manipulador Phantom X.
