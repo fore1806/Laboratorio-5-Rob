@@ -263,4 +263,5 @@ Finalmente, un evento que cautó especialmente la atención del equipo de trabaj
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/error%20en%20F.jpeg)
 ### Conclusiones
 se evidencia la gran importancia de la robustez mecánica de los manipuladores para poder obtener resultados precisos y repetibles de las trayectorias ya que esto induce un gran error en las mismas.
+
 Se encontro la importancia de la realización de la cinemartica inversa con el fin de programar rutinnas espaciales a efectuar por el manipulador.
