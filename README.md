@@ -274,8 +274,10 @@ Finalmente, un evento que cautó especialmente la atención del equipo de trabaj
 
 ### Conclusiones
 
--Se evidencia la gran importancia de la robustez mecánica de los manipuladores para poder obtener resultados precisos y repetibles de las trayectorias ya que esto induce un gran error en las mismas.
+- Se evidencia la gran importancia de la robustez mecánica de los manipuladores para poder obtener resultados precisos y repetibles de las trayectorias ya que esto induce un gran error en las mismas.
 
--Se encontró la importancia de la realización de la cinemartica inversa con el fin de programar rutinns espaciales a efectuar por el manipulador.
+- Se encontró la importancia de la realización de la cinemartica inversa con el fin de programar rutinns espaciales a efectuar por el manipulador.
 
--Se estima un error del 14.794 % para el manipulador Phantom X.
+- Se estima un error del 14.794 % para el manipulador Phantom X.
+
+- Es muy importante asegurarse de coseguir una sujeción optima de la herramienta a usar, pues esta puede afectar la repetibilidad y precisión del robot en el caso en que su interacción con el objeto de trabajo altere su posición.
