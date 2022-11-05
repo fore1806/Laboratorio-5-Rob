@@ -249,5 +249,4 @@ Adicionalmente, se observa en las trayectorias cerradas, como el círculo o el t
 Finalmente, un evento que cautó especialmente la atención del equipo de trabajo, fue la escritura de las iniciales de los integrantes y especialmente la letra F, pues para reducir operaciones se decidió realizar la F repisando la línea media; sin embargo, al realizar este procedimiento, el manipulador no volvia al punto de partida después de realizar dos veces la misma línea. Al corregir este error desde el código se puede encontrar un valor numérico para la repetibilidad de esta operación de 5 mm.
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/error%20en%20F.jpeg)
 ### Conclusiones
-
-los pincher solo sirven pa mimir
+se evidencia la gran importancia de la robustez mecanica de los manipuladores para poder obtenr resultados precisos y repetibles de las trayectorias ya qu esto induce un gran error en las mismas
