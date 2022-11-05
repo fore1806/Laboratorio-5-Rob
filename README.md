@@ -250,12 +250,16 @@ Finalmente, un evento que cautó especialmente la atención del equipo de trabaj
 
 | Trayectoria | Tiempo [s]   |
 | -- | -- |
-| Puntos  | 5.86            |
-|Triangulo| 5.83            |
-|Paralelas| 5.94            |
-|Circulos| 5.86            |
-|Libre| 5.83            |
-|Letras| 5.94            |
+| Puntos    |50               |
+|Triangulo  |52               |
+|Paralelas  |56               |
+|Circulos   |46               |
+|Pentagono  |40               |
+|Libre      |76               |
+|Letras     |94               |
+|Recolección|32               |
+|Dejado     |30               |
+
 ![](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/error%20en%20F.jpeg)
 ### Conclusiones
 se evidencia la gran importancia de la robustez mecánica de los manipuladores para poder obtener resultados precisos y repetibles de las trayectorias ya que esto induce un gran error en las mismas.
