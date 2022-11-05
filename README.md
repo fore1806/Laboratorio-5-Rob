@@ -214,7 +214,7 @@ print(time.time()-inicio)
 
 En el video de Youtube al que se puede acceder en la siguiente imagen, se observa el manipulador Phantom X, realizando las trayectorias especificadas anteriormente.
 
-[![Alt text](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/Thumbnail.png)](https://youtu.be/NH3ZaQMMAC8)
+[![Alt text](https://github.com/fore1806/Laboratorio-5-Rob/blob/master/DIAGRAMAS-FOTOS/video.png)](https://youtu.be/NH3ZaQMMAC8)
 
 De la misma forma, en la siguiente imagen se evidencia el resultado final del proceso de dibujo de las trayectorias iniciales.
 
